@@ -15,8 +15,8 @@
             interfaz = new Interfaz();
             garra = new Garra();
         }
-
     }
+    
 
     internal class Program
     {
