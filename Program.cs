@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_GARRA
 {
-    public partial class Maquina
+    public class Maquina
     {
         public Sensor sensor;
         public Motor motor;
