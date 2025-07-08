@@ -25,6 +25,9 @@
           
 
             motor.ActivarMotor();
+            Console.WriteLine("Motor activado");
+
+
             garra.MoverEjes();
             garra.ActivarGarra();
 

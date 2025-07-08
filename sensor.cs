@@ -1,5 +1,5 @@
 ﻿namespace PROYECTO_GARRA
-{
+{ 
     public class Sensor
     {
             public bool DetectarObjeto()
@@ -9,6 +9,6 @@
             }
         }
     }
+}
 
-}
-}
+
