@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System
+using System;
     class Program
     {
         static void Main()
@@ -36,7 +36,20 @@ using System
         }
 
         Console.WriteLine("✓ Fin del proceso.");
+        static float PedirValor(string eje)
+        {
+            Console.Write($"{eje}: ");
+            return float.Parse(Console.ReadLine());
+        }
+
+        static bool Confirmar(string mensaje)
+        {
+            Console.Write($"{mensaje} (sí/no): ");
+            string r = Console.ReadLine().ToLower();
+            return r == "sí" || r == "si";
+        }
     }
-    }
+}
+    
 
 
