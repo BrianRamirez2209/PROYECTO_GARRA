@@ -16,7 +16,30 @@
             garra = new Garra();
         }
     }
-    
+
+
+    public void InsertarMoneda()
+        {
+            Console.WriteLine("Moneda insertada");
+            interfaz.IniciarJuego();
+            interfaz.MostrarPantalla();
+
+            motor.ActivarMotor();
+            garra.MoverEjes();
+            garra.ActivarGarra();
+
+            if (sensor.DetectarObjeto())
+            {
+                Console.WriteLine("¡Objeto detectado por la garra!");
+            }
+            else
+            {
+                Console.WriteLine("No se detectó ningún objeto.");
+            }
+        }
+    }
+
+
 
     internal class Program
     {
