@@ -8,6 +8,6 @@ namespace PROYECTO_GARRA
 {
     internal class Motor
     {
-        Console
     }
 }
+
