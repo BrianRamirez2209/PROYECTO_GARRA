@@ -9,6 +9,8 @@ using System;
     {
         public void IniciarJuego()
         {
+        Console.WriteLine("Iniciando juego de la garra");
+
             Console.WriteLine("Coordenadas iniciales:");
             float x1 = PedirValor("X");
             float y1 = PedirValor("Y");
