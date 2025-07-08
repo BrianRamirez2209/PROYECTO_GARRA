@@ -2,7 +2,7 @@
 
 namespace PROYECTO_GARRA
 {
-    internal class Garra
+    public class Garra
     {
     }
 }

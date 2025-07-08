@@ -3,7 +3,7 @@
 
 namespace PROYECTO_GARRA
 {
-    internal class Interfaz
+    public class Interfaz
     {
     }
 }

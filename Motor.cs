@@ -3,7 +3,7 @@
 
 namespace PROYECTO_GARRA
 {
-    internal class Motor
+    public class Motor
     {
 
     }
