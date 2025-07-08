@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System;
     class Program
     {
-        static void Main()
+        public void IniciarJuego()
         {
             Console.WriteLine("Coordenadas iniciales:");
             float x1 = PedirValor("X");
