@@ -2,10 +2,10 @@
 {
     public partial class Maquina
     {
-        private Sensor sensor;
-        private Motor motor;
-        private Interfaz interfaz;
-        private Garra garra;
+        public Sensor sensor;
+        public Motor motor;
+        public Interfaz interfaz;
+        public Garra garra;
 
 
         public Maquina()

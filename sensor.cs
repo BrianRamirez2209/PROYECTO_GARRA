@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_GARRA
 {
-    public class sensor
+    public class Sensor
     {
         public int id;
     }
