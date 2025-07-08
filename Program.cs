@@ -22,7 +22,7 @@
         {
             Console.WriteLine("Moneda insertada");
             interfaz.IniciarJuego();
-            interfaz.MostrarPantalla();
+          
 
             motor.ActivarMotor();
             garra.MoverEjes();
