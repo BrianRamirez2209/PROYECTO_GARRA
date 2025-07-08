@@ -25,7 +25,18 @@ using System
             float z2 = PedirValor("Z");
 
             Console.WriteLine($"→ Moviendo a ({x2}, {y2}, {z2})");
+            if (Confirmar("¿Liberar garra?"))
+                Console.WriteLine("→ Objeto liberado.");
+            else
+                Console.WriteLine("→ No se liberó la garra.");
         }
+        else
+        {
+            Console.WriteLine("→ No se cerró la garra.");
+        }
+
+        Console.WriteLine("✓ Fin del proceso.");
+    }
     }
 
 
