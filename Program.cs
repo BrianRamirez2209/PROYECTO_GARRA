@@ -8,7 +8,7 @@ namespace PROYECTO_GARRA
         public Sensor sensor;
         public Motor motor;
         public Interfaz interfaz;
-        public Garra garra;
+        public MaquinaGarra garra;
 
 
         public Maquina()
