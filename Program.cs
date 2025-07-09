@@ -16,7 +16,7 @@ namespace PROYECTO_GARRA
             sensor = new Sensor();
             motor = new Motor();
             interfaz = new Interfaz();
-            garra = new Garra();
+            garra = new MaquinaGarra();
         }
     }
 
