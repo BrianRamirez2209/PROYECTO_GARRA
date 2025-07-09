@@ -1,7 +1,7 @@
 ﻿namespace PROYECTO_GARRA
 {
 
-    public class Maquina
+     public class Maquina
     {
         public Sensor sensor;
         public Motor motor;
@@ -23,7 +23,7 @@
         {
             Console.WriteLine("Moneda insertada");
             interfaz.IniciarJuego();
-
+          
 
             motor.ActivarMotor();
             Console.WriteLine("Motor activado");
