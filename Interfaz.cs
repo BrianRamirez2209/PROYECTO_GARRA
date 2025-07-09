@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System;
-    class Program
+    class Interfaz
     {
         public void IniciarJuego()
         {
