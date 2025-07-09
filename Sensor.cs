@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PROYECTO_GARRA
-{
-    internal class Sensor
+﻿namespace PROYECTO_GARRA
+{ 
+    public class Sensor
     {
+            public bool DetectarObjeto()
+            {
+                Console.WriteLine("Sensor activado... buscando objeto...");
+                return true; // Simulación: siempre detecta
+            }
+        }
     }
 }
+
+
