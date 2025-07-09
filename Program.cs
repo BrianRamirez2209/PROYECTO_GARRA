@@ -31,8 +31,7 @@ namespace PROYECTO_GARRA
             Console.WriteLine("Motor activado");
 
 
-            garra.MoverEjes();
-            garra.ActivarGarra();
+            garra.IniciarCiclo();
 
             if (sensor.DetectarObjeto())
             {
