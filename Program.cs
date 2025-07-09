@@ -1,4 +1,6 @@
-﻿namespace PROYECTO_GARRA
+﻿using PROYECTO_GARRA;
+
+namespace PROYECTO_GARRA
 {
 
      public class Maquina
@@ -56,8 +58,9 @@
         static void Main(string[] args)
         {
 
-            
-            
-        }
+        Maquina maquina = new Maquina();
+        maquina.InsertarMoneda();
+
+    }
     }
 }
